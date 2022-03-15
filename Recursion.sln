@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumNumbers", "ConsoleApp1\SumNumbers.csproj", "{E22E7963-E115-4255-A237-95A115409251}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial", "Factorial\Factorial.csproj", "{744B945F-0453-4681-AAC1-B0E4594162FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonaci", "Fibonaci\Fibonaci.csproj", "{D8921131-CAEE-496A-BB79-D85EF8686760}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E22E7963-E115-4255-A237-95A115409251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E22E7963-E115-4255-A237-95A115409251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E22E7963-E115-4255-A237-95A115409251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E22E7963-E115-4255-A237-95A115409251}.Release|Any CPU.Build.0 = Release|Any CPU
+		{744B945F-0453-4681-AAC1-B0E4594162FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{744B945F-0453-4681-AAC1-B0E4594162FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{744B945F-0453-4681-AAC1-B0E4594162FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{744B945F-0453-4681-AAC1-B0E4594162FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8921131-CAEE-496A-BB79-D85EF8686760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8921131-CAEE-496A-BB79-D85EF8686760}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8921131-CAEE-496A-BB79-D85EF8686760}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8921131-CAEE-496A-BB79-D85EF8686760}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2481E7FD-13B1-42C7-B1A5-66359CEC0D9F}
+	EndGlobalSection
+EndGlobal
