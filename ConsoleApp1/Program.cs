@@ -6,34 +6,36 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int[] numbers = new int[] { 1, 2, 3, 4, 5, 6 };
+            int[] djob1 = new int[] { 5, 10, 20, 50, 100, 1 };
 
-            var sum = SumLoop(numbers);
+            //var sum = SumLoop(djob1);
 
-            Console.WriteLine(sum);
+            //Console.WriteLine(sum);
 
-            var sum2 = SumRecursivly(numbers, 0);
+            var sum2 = Sum(djob1, 0);
 
             Console.WriteLine(sum2);
         }
 
-        public static int SumRecursivly(int[] arr, int index)
+        public static int Sum(int[] arr, int index)
         {
             if(index == arr.Length)
             {
                 return 0;
             }
 
-            return arr[index] + SumRecursivly(arr, index + 1);
+            int currentElement = arr[index];
+
+            return currentElement + Sum(arr, index + 1);
         }
 
-        public static int SumLoop(int[] arr)
+        public static int SumLoop(int[] kolekciq)
         {
             int sum = 0;
 
-            for (int i = 0; i < arr.Length; i++)
+            for (int i = 0; i < kolekciq.Length; i++)
             {
-                sum += arr[i];
+                sum += kolekciq[i];
             }
 
             return sum;

@@ -26,7 +26,7 @@ namespace Fibonaci
         }
 
 
-        static long[] numbers;
+        //static long[] numbers;
 
 
 

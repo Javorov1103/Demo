@@ -26,7 +26,8 @@ namespace Factorial
             // Recursive call: the method calls itself
             else
             {
-                return n * Factorial(n - 1);
+                int nextNumber = n - 1;
+                return n * Factorial(nextNumber);
             }
 
         }

@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonaci", "Fibonaci\Fibona
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoopsExercises", "LoopsExercises\LoopsExercises.csproj", "{19F929A4-A4DE-48E6-A231-EA22CFD40914}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoMethods", "DemoMethods\DemoMethods.csproj", "{3114E4A0-0F03-42B7-B811-B6480D2808A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaOfTriangle", "AreaOfTriangle\AreaOfTriangle.csproj", "{8177B857-C52B-4751-A4A5-180215F5E0FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{19F929A4-A4DE-48E6-A231-EA22CFD40914}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19F929A4-A4DE-48E6-A231-EA22CFD40914}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19F929A4-A4DE-48E6-A231-EA22CFD40914}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3114E4A0-0F03-42B7-B811-B6480D2808A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3114E4A0-0F03-42B7-B811-B6480D2808A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3114E4A0-0F03-42B7-B811-B6480D2808A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3114E4A0-0F03-42B7-B811-B6480D2808A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8177B857-C52B-4751-A4A5-180215F5E0FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8177B857-C52B-4751-A4A5-180215F5E0FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8177B857-C52B-4751-A4A5-180215F5E0FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8177B857-C52B-4751-A4A5-180215F5E0FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
