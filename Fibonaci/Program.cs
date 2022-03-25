@@ -28,8 +28,6 @@ namespace Fibonaci
 
         //static long[] numbers;
 
-
-
         //static void Main()
         //{
         //    Console.Write("n = ");
@@ -47,8 +45,6 @@ namespace Fibonaci
         //    Console.WriteLine("fib({0}) = {1}", n, result);
         //}
 
-
-
         //static long Fib(int n)
         //{
         //    if (0 == numbers[n])
@@ -56,7 +52,6 @@ namespace Fibonaci
 
         //        numbers[n] = Fib(n - 1) + Fib(n - 2);
         //    }
-
 
         //    return numbers[n];
 
